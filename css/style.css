@@ -32,7 +32,7 @@ ul {
   text-indent: 20px;
 }
 
-header {
+.main-header {
     height: 100px;
     background-color: rgb(78,160,255);
     background-image: url(../img/pattern.png);
@@ -56,4 +56,9 @@ header {
 a, address{
     text-decoration: none;
     font-style: normal;
+
+}
+
+figure{
+    margin-top: 20px;
 }
