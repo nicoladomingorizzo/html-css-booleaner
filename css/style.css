@@ -86,5 +86,32 @@ figure{
 
 thead{
     background-color: rgb(31,169,229);
-    
+
+}
+
+h3{
+    margin-top: 20px;
+
+}
+
+.correlated-article{
+    margin-top: 10px;
+}
+
+.correlated-article-title {
+    height: 200px;
+    width: 200px;
+    font-size: 1.1em;
+    margin: 0;
+    color: white;
+    background-position: center;
+    padding: 10px;
+}
+
+.monitor-article{
+    background-image: url(../img/monitor.jpg);
+}
+
+.graphic-article{
+    background-image: url(../img/graph.jpg);
 }
