@@ -1,13 +1,59 @@
 /* CSS Reset */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Utilities */
 
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
 
+.text-gray{
+    color: rgb(145,145,145);
+}
 
+.text-small {
+  font-size: 10px;
+}
 
 /* General */
+
+body{
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+}
+
+ul {
+  text-indent: 20px;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(78,160,255);
+    background-image: url(../img/pattern.png);
+    background-size: 34%;
+    background-repeat: repeat-x;
+    background-position: 9% -6%;
+    
+}
+
+#logo {
+    height: 4em;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.text-big{
+    font-size: 40px;
+}
+
+a, address{
+    text-decoration: none;
+    font-style: normal;
+}
