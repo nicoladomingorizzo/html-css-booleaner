@@ -24,6 +24,10 @@
 .w-50{
     width: 50%;
 }
+
+.text-white{
+    color: white;
+}
 /* General */
 
 body{
