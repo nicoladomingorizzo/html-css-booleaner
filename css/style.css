@@ -21,6 +21,9 @@
   font-size: 10px;
 }
 
+.w-50{
+    width: 50%;
+}
 /* General */
 
 body{
@@ -28,9 +31,6 @@ font-family: 'Times New Roman', Times, serif;
 font-size: 16px;
 }
 
-ul {
-  text-indent: 20px;
-}
 
 .main-header {
     height: 100px;
@@ -61,4 +61,30 @@ a, address{
 
 figure{
     margin-top: 20px;
+}
+
+.article-paragraph{
+    margin-top: 20px;
+}
+
+.list-article{
+    margin-top: 20px;
+    list-style-position: inside;
+    padding-inline-start: 0;
+}
+
+.table-article {
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+.tr-lightblue{
+    background-color: #7dcaee;
+
+}
+
+thead{
+    background-color: rgb(31,169,229);
+    
 }
